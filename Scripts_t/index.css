@@ -26,3 +26,9 @@ ul {
 a {
     text-decoration: none;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--clr-main);
+}
