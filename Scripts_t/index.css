@@ -66,3 +66,9 @@ main {
     color: var(--clr-main);
     margin-bottom: 2rem;
 }
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
