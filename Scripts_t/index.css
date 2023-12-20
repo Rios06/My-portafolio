@@ -49,6 +49,12 @@ aside {
     font-size: 1.3rem;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 .boton-menu {
     background-color: transparent;
     border: 0;
