@@ -37,3 +37,8 @@ aside {
     padding: 2rem;
     color: var(--clr-white);
 }
+
+.logo {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
