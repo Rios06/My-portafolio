@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 :root {
-    --clr-main: #2570e2;
-    --clr-main-light: #83adec;
+    --clr-main: #000000;
+    --clr-main-light: #44484e;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
     --clr-red: #1d1d1d;
@@ -92,4 +92,16 @@ main {
 
 .producto-titulo {
     font-size: 1rem;
+}
+
+.producto-agregar {
+    border: 0;
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    padding: .4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid var(--clr-white);
+    transition: background-color .2s, color .2s;
 }
