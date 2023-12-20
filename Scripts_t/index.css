@@ -61,3 +61,8 @@ main {
     border-radius: 2rem;
     padding: 3rem;
 }
+
+.titulo-principal {
+    color: var(--clr-main);
+    margin-bottom: 2rem;
+}
