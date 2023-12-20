@@ -53,3 +53,11 @@ aside {
     color: var(--clr-main-light);
     font-size: .85rem;
 }
+
+main {
+    background-color: var(--clr-white);
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 3rem;
+}
