@@ -49,6 +49,20 @@ aside {
     font-size: 1.3rem;
 }
 
+.boton-menu {
+    background-color: transparent;
+    border: 0;
+    color: var(--clr-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: .85rem;
+    width: 100%;
+}
+
 .texto-footer {
     color: var(--clr-main-light);
     font-size: .85rem;
