@@ -8,4 +8,19 @@
             "id": "abrigos"
         },
         "precio": 1000
-    }]
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+
+
+
+
+]
