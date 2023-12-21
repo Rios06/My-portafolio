@@ -107,6 +107,10 @@ aside {
     transform: rotateZ(90deg);
 }
 
+.boton-carrito {
+    margin-top: 2rem;
+}
+
 .texto-footer {
     color: var(--clr-main-light);
     font-size: .85rem;
