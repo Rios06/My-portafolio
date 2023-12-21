@@ -58,4 +58,5 @@ botonesCategorias.forEach(boton => {
     })
 });
 
-cargarProductos();
+function actualizarBotonesAgregar() {
+}
