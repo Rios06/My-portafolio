@@ -230,3 +230,8 @@ main {
     color: var(--clr-main);
     cursor: pointer;
 }
+
+.carrito-acciones {
+    display: flex;
+    justify-content: space-between;
+}
