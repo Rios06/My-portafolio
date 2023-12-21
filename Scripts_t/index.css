@@ -69,6 +69,11 @@ aside {
     width: 100%;
 }
 
+.boton-menu > i.bi-hand-index-thumb-fill,
+.boton-menu > i.bi-hand-index-thumb {
+    transform: rotateZ(90deg);
+}
+
 .texto-footer {
     color: var(--clr-main-light);
     font-size: .85rem;
