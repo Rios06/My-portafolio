@@ -122,7 +122,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 08",
-        "imagen": "./img/camisetas/08.jpg",
+        "imagen": "/img tienda/img/camisetas/08.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
