@@ -110,3 +110,7 @@ function agregarAlCarrito(e) {
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
+
+function actualizarNumerito(){
+    
+}
