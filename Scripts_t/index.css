@@ -184,3 +184,10 @@ main {
     background-color: var(--clr-main);
     color: var(--clr-white);
 }
+
+/* Carro*/
+
+
+.carrito-vacio {
+    color: var(--clr-main);
+}
