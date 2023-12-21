@@ -59,7 +59,16 @@
         },
         "precio": 1000
     },
-
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta 02",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
 
 
 
