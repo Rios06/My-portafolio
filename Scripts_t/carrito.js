@@ -52,6 +52,7 @@ function cargarProductosCarrito() {
     actualizarTotal();
 }else {
     contenedorCarritoVacio.classList.remove("disabled");
+    contenedorCarritoProductos.classList.add("disabled");
 }
 }
     
