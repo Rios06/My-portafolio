@@ -102,7 +102,7 @@
     {
         "id": "camiseta-06",
         "titulo": "Camiseta 06",
-        "imagen": "./img/camisetas/06.jpg",
+        "imagen": "/img tienda/img/camisetas/06.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -112,7 +112,7 @@
     {
         "id": "camiseta-07",
         "titulo": "Camiseta 07",
-        "imagen": "./img/camisetas/07.jpg",
+        "imagen": "/img tienda/img/camisetas/07.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
