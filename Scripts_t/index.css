@@ -213,3 +213,7 @@ main {
     width: 4rem;
     border-radius: 1rem;
 }
+
+.carrito-producto small {
+    font-size: .75rem;
+}
