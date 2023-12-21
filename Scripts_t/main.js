@@ -66,3 +66,4 @@ function actualizarBotonesAgregar() {
 }
 
 let productosEnCarrito;
+let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
