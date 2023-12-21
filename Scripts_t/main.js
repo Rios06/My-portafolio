@@ -18,8 +18,6 @@ fetch("./js/productos.json")
     }))
 
     function cargarProductos(productosElegidos) {
-    
-
     productosElegidos.forEach(producto => {
         const div = document.createElement("div");
         div.classList.add("producto");
@@ -35,4 +33,6 @@ fetch("./js/productos.json")
         contenedorProductos.append(div);
 
     })
+
+    actualizarBotonesAgregar();
 }
