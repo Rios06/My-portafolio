@@ -6,3 +6,5 @@ fetch("./js/productos.json")
         productos = data;
         cargarProductos(productos);
     })
+
+    const contenedorProductos = document.querySelector("#contenedor-productos");  
