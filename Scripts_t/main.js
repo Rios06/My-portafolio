@@ -64,3 +64,5 @@ function actualizarBotonesAgregar() {
         boton.addEventListener("click", agregarAlCarrito);
     });
 }
+
+let productosEnCarrito;
