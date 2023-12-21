@@ -1,0 +1,1 @@
+let productosEnCarrito = localStorage.getItem("productos-en-carrito");
