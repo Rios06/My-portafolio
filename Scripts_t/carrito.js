@@ -17,5 +17,7 @@ function cargarProductosCarrito() {
         contenedorCarritoProductos.classList.remove("disabled");
         contenedorCarritoAcciones.classList.remove("disabled");
         contenedorCarritoComprado.classList.add("disabled");
+
+        contenedorCarritoProductos.innerHTML = "";
     }
 }
