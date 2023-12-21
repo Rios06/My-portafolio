@@ -32,7 +32,7 @@
                 </li>
         
         <li>
-            <a class="boton-menu boton-carrito " href="./carrito.html">
+            <a class="boton-menu boton-carrito active" href="./carrito.html">
                 <i class="bi bi-cart-fill"></i>Carrito
         </a>
         </li>
@@ -43,73 +43,14 @@
         
             <p class="texto-footer">© 2023 carpi code</p>
         </footer>
-        
         </aside>
-        
         <main>
-            <h2 class="titulo principal">Carro de compras</h2>
+            <h2 class="titulo-principal">Carro de compras</h2>
         <div class="contenedor-carrito">
        <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio. <i class="bi bi-emoji-smile-upside-down"></i></p>
        
         <div id="carrito-productos" class="carrito-productos disabled">
 
-<div class="carrito-producto">
-    <img class="carrito-producto-imagen" src="/img tienda/img/abrigos/01.jpg" alt="">
-    <div class="carrito-producto-titulo">
-        <small>Titulo</small>
-        <h3>Abrigo 01</h3>
-
-    </div>
-<div class="carrito-producto-cantidas">
-<small>Cantidad</small>
-<p>1</p>
-</div>
-
-<div class="carrito-producto-precio">
-<small>Precio</small>
-<p>$65000</p>
-
-</div>
-
-<div class="carrito-producto-subtotal">
-
-    <small>Subtotal</small>
-    <p>65000</p>
-</div>
-
-<button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
-
-</div>
-
-<!--Producto2-->
-
-<div class="carrito-producto">
-    <img class="carrito-producto-imagen" src="/img tienda/img/abrigos/02.jpg" alt="">
-    <div class="carrito-producto-titulo">
-        <small>Titulo</small>
-        <h3>Abrigo 02</h3>
-
-    </div>
-<div class="carrito-producto-cantidas">
-<small>Cantidad</small>
-<p>2</p>
-</div>
-
-<div class="carrito-producto-precio">
-<small>Precio</small>
-<p>$85000</p>
-
-</div>
-
-<div class="carrito-producto-subtotal">
-
-    <small>Subtotal</small>
-    <p>170000</p>
-</div>
-
-<button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
-
-</div>
         </div>
 
 <div id="carrito-acciones" class="carrito-acciones disabled">
@@ -131,8 +72,11 @@
         </div>
         
         </main>
-        
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="/Scripts_t/carrito.js"></script>
-            </div>
+        <script src="./Scripts_t/menu.js"></script>
 </body>
 </html>
