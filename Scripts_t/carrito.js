@@ -60,4 +60,9 @@ function cargarProductosCarrito() {
 }
 
 cargarProductosCarrito();
+
+function actualizarBotonesEliminar(){
+
+    
+}
     
