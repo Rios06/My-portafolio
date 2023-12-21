@@ -47,6 +47,8 @@ function cargarProductosCarrito() {
 
             contenedorCarritoProductos.append(div);
     })
+
+    actualizarBotonesEliminar();
 }
 }
     
