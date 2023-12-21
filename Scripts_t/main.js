@@ -59,4 +59,5 @@ botonesCategorias.forEach(boton => {
 });
 
 function actualizarBotonesAgregar() {
+    botonesAgregar = document.querySelectorAll(".producto-agregar");
 }
