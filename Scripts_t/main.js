@@ -74,3 +74,6 @@ if (productosEnCarritoLS) {
 } else {
     productosEnCarrito = [];
 }
+
+function agregarAlCarrito(e) {
+}
