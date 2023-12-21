@@ -106,4 +106,5 @@ function agregarAlCarrito(e) {
         productoAgregado.cantidad = 1;
         productosEnCarrito.push(productoAgregado);
     }
+    actualizarNumerito();
 }
