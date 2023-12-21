@@ -45,7 +45,7 @@ function cargarProductosCarrito() {
                 <button class="carrito-producto-eliminar" id="${producto.id}"><i class="bi bi-trash-fill"></i></button>
             `;
 
-          
+            contenedorCarritoProductos.append(div);
     })
 }
 }
