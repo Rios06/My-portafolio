@@ -119,3 +119,7 @@ function vaciarCarrito() {
         }
       })
 }
+
+function actualizarTotal() { 
+
+}
