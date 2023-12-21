@@ -32,7 +32,7 @@
     {
         "id": "abrigo-04",
         "titulo": "Abrigo 04",
-        "imagen": "./img/abrigos/04.jpg",
+        "imagen": "/img tienda/img/abrigos/04.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
