@@ -82,7 +82,7 @@
     {
         "id": "camiseta-04",
         "titulo": "Camiseta 04",
-        "imagen": "./img/camisetas/04.jpg",
+        "imagen": "/img tienda/img/camisetas/04.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
