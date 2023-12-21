@@ -14,5 +14,6 @@ function cargarProductosCarrito() {
     if (productosEnCarrito && productosEnCarrito.length > 0) {
         
         contenedorCarritoVacio.classList.add("disabled");
+        contenedorCarritoProductos.classList.remove("disabled");
     }
 }
