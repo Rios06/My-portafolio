@@ -129,5 +129,15 @@
         },
         "precio": 1000
     },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
 
 ]
