@@ -36,3 +36,7 @@ fetch("./js/productos.json")
 
     actualizarBotonesAgregar();
 }
+
+botonesCategorias.forEach(boton => {
+
+})
