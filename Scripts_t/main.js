@@ -8,3 +8,4 @@ fetch("./js/productos.json")
     })
 
     const contenedorProductos = document.querySelector("#contenedor-productos");  
+    const botonesCategorias = document.querySelectorAll(".boton-categoria");
