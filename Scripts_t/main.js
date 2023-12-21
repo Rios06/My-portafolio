@@ -20,3 +20,7 @@ fetch("./js/productos.json")
     function cargarProductos(productosElegidos) {
     
     }
+
+    productosElegidos.forEach(producto => {
+
+    })
