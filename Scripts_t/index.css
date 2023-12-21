@@ -245,3 +245,19 @@ main {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.carrito-acciones-derecha {
+    display: flex;
+}
+
+
+.carrito-acciones-comprar {
+    border: 0;
+    background-color: var(--clr-main);
+    padding: 1rem;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
