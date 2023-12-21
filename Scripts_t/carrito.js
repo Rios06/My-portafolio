@@ -126,3 +126,7 @@ function actualizarTotal() {
 }
 
 botonComprar.addEventListener("click", comprarCarrito);
+
+function comprarCarrito() {
+
+}
