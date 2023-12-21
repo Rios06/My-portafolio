@@ -198,6 +198,17 @@ main {
     gap: 1rem;
 }
 
+.carrito-producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-gray);
+    color: var(--clr-main);
+    padding: .5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+}
+
 .carrito-producto-imagen {
     width: 4rem;
     border-radius: 1rem;
