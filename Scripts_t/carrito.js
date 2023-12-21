@@ -64,5 +64,8 @@ cargarProductosCarrito();
 function actualizarBotonesEliminar(){
     botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
 
+    botonesEliminar.forEach(boton => {
+        boton.addEventListener("click", eliminarDelCarrito);
+    });
 }
     
