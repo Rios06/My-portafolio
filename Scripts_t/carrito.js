@@ -49,6 +49,7 @@ function cargarProductosCarrito() {
     })
 
     actualizarBotonesEliminar();
+    actualizarTotal();
 }
 }
     
