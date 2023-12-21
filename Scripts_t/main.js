@@ -16,3 +16,7 @@ fetch("./js/productos.json")
     botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
         aside.classList.remove("aside-visible");
     }))
+
+    function cargarProductos(productosElegidos) {
+    
+    }
