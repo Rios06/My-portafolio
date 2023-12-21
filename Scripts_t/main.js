@@ -22,5 +22,6 @@ fetch("./js/productos.json")
     }
 
     productosElegidos.forEach(producto => {
+        const div = document.createElement("div");
 
     })
