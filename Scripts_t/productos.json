@@ -142,7 +142,7 @@
     {
         "id": "pantalon-02",
         "titulo": "Pantalón 02",
-        "imagen": "./img/pantalones/02.jpg",
+        "imagen": "/img tienda/img/pantalones/02.jpg",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
