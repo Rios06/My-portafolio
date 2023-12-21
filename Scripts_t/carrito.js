@@ -50,6 +50,8 @@ function cargarProductosCarrito() {
 
     actualizarBotonesEliminar();
     actualizarTotal();
+}else {
+    contenedorCarritoVacio.classList.remove("disabled");
 }
 }
     
