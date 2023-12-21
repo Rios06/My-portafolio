@@ -19,7 +19,6 @@ fetch("./js/productos.json")
 
     function cargarProductos(productosElegidos) {
     
-    }
 
     productosElegidos.forEach(producto => {
         const div = document.createElement("div");
@@ -32,7 +31,8 @@ fetch("./js/productos.json")
             <button class="producto-agregar" id="${producto.id}">Agregar</button>
         </div>
         `;
-        
+
         contenedorProductos.append(div);
 
     })
+}
