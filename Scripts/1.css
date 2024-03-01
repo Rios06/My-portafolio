@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+body{
+    background-color: #000;
+}
 
 html{
     scroll-behavior: smooth;
@@ -14,7 +17,7 @@ html{
 
 #inicio{
     background: -linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url(/img/e.png));
-    background-image: url(/img/Compañía\ Porales.png);
+    background-image: url();
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -142,7 +145,7 @@ display: none;
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(199, 199, 199);
     display: flex;
 }
 
@@ -159,9 +162,9 @@ display: none;
 #sobremi .sobremi .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #d5d5d6;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #68a7ff;
     text-decoration-thickness: 5px;
 }
 
@@ -174,6 +177,7 @@ display: none;
 
 #sobremi .sobremi h2 span{
     color: #3772ff;
+    margin-bottom: -10px;
 }
 
 #sobremi .sobremi h3{
@@ -187,7 +191,7 @@ display: none;
 #sobremi .sobremi p{
     font-size: 14px;
     line-height: 25px;
-    color: #565656;
+    color: #f30000;
     margin-bottom: 12px;
 }
 
@@ -212,15 +216,17 @@ display: none;
 #servicios{
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #000000;
+    
 }
+
 
 #servicios .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #d5d5d6;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #68a7ff;
     text-decoration-thickness: 5px;
 }
 
@@ -233,7 +239,8 @@ display: none;
 
 #servicios .fila .servicio{
 max-width: 350px;
-background-color: #fff;
+background-color: #111010;
+
 padding: 30px;
 margin: 0 5px;
 border-radius: 5px;
@@ -242,7 +249,7 @@ transition: .5s;
 }
 
 #servicios .fila .servicio:hover{
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    box-shadow: 5px 5px 10px #5d88e4, -5px -5px 10px #8a8a8a;
 }
 
 #servicios .fila .servicio h4 {
@@ -255,6 +262,7 @@ display: inline-block;
 width: 60px;
 height: 60px;
 border-radius: 50%;
+color: rgb(252, 251, 251);
 background-color: #5f8df8;
 padding: 20px;
 margin-bottom: 25px;
@@ -273,92 +281,70 @@ margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    color: #e0e0e0;
 }
 
+
+
 #servicios .fila .servicio p{
-  
     font-size: 14px;
     line-height: 22px;
 }
 
-.contenedor-skills{
-    background: linear-gradient(#3772ff,rgba(231, 231, 231, 0.8), url(/img/Compañía\ Porales\ \(1\).png));
-    background-image: url(/img/Compañía\ Porales\ \(3\).png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 100px 0;
-    text-align: center;
-    color: rgb(255, 255, 255);
+
+
+.skill{
+    width: 100px;
+    margin: 5px;
+    position: relative;
+   
 }
 
-.contenedor-skills .skill {
-    max-width: 600px;
-    margin: 30px auto;
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                 -6px -6px 10px -1px rgba(255,255,255,0.7);
 }
 
-.contenedor-skills .skill .info{
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%; 
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+  
 }
 
-.contenedor-skills .skill .lista{
-    
-    display: inline-block;
-    margin-right: 20px;
-    height: 10px;
-    width: 10px;
-    background-color: #fff;
+h6{
+    font-family: 'Poppins', sans-serif;
+    color: #555;
 }
 
-.contenedor-skills .skill .barra{
-    background-color: #919191;
-    width: 100%;
-    height: 6px;
-    margin: 10px 0;
+#number{
+    font-weight: 600;
+    color: #555;
 }
 
-.contenedor-skills .skill .barra .barra-progreso1{
-    background-color: #fff;
-    width: 85%;
-    height: 6px;
-    animation: progreso1 2s forwards;
-}
 
-.contenedor-skills .skill .barra .barra-progreso2{
-    background-color: #fff;
-    width: 85%;
-    height: 6px;
-    animation: progreso2 2s forwards;
-}
 
-.contenedor-skills .skill .barra .barra-progreso3{
-    background-color: #fff;
-    width: 80%;
-    height: 6px;
-    animation: progreso3 2s forwards;
-}
 
-.contenedor-skills .skill .barra .barra-progreso4{
-    background-color: #fff;
-    width: 80%;
-    height: 6px;
-    animation: progreso4 2s forwards;
-}
 
-.contenedor-skills .skill .barra .barra-progreso5{
-    background-color: #fff;
-    width: 85%;
-    height: 6px;
-    animation: progreso5 2s forwards;
-}
 
-.contenedor-skills .skill .barra .barra-progreso6{
-    background-color: #fff;
-    width: 20%;
-    height: 6px;
-    animation: progreso6 2s forwards;
+
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 165;   
+    }
 }
 
 @keyframes progreso1 {
@@ -425,9 +411,9 @@ margin-bottom: 25px;
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #d5d5d6;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #68a7ff;
     text-decoration-thickness: 5px;
 }
 
@@ -443,12 +429,12 @@ margin-bottom: 25px;
      margin: 0 10px;
      position: relative;
      overflow: hidden;
+     border-radius: 20px;
 }
 
 #proyectos .fila .proyecto img{
     width: 100%;
     height: 100%;
-    filter: grayscale(1);
     object-fit: cover;
     transition: .5s;
 }
@@ -474,7 +460,7 @@ margin-bottom: 25px;
     bottom: 0;
 }
 
-#contacto {
+#contacto{
     padding: 100px 15px;
 }
 
@@ -483,24 +469,27 @@ margin-bottom: 25px;
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #d5d5d6;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #68a7ff;
     text-decoration-thickness: 5px;
 }
 
 #contacto .contenedor-form {
     max-width: 1100px;
     margin: auto;
+    
 }
 
 #contacto .contenedor-form .fila {
     margin-bottom: 15px;
+    
 }
 
 #contacto .contenedor-form .mitad {
     display: flex;
     justify-content: space-between;
+   
 }
 
 #contacto .contenedor-form input,
@@ -509,10 +498,13 @@ margin-bottom: 25px;
     border-radius: 20px;
     border: none;
     border: 1px solid #919191;
+    color: #3772ff;
 }
 
 #contacto .contenedor-form .mitad input{
     width: 48%;
+    
+ 
 }
 
 #contacto .contenedor-form .input-full{
@@ -535,15 +527,38 @@ margin-bottom: 25px;
 }
 
 footer{
-    background-color: #000;
-    color: #fff;
+    background-color: #131313;
+    color: #cccbcb;
     text-align: center;
     padding: 30px 0;
 }
 
+
+
+
+@keyframes escribir {
+    from {
+        width: 0;
+    }
+}
+
+
+#nombre {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid rgb(103, 151, 255); 
+    margin-bottom: -40px;
+    white-space: nowrap; 
+    margin: 0;
+    padding: 0;
+    animation: escribir 3s steps(30, end);
+}
+
+
+
 footer a{
     text-decoration: none;
-    color: #fff;
+    color: #d1cfcf;
     display: inline-block;
     margin: 5px;
     font-size: 26px;
@@ -612,7 +627,7 @@ footer a{
     #servicios .fila .servicio{
         margin: 10px auto;
     }
-    .contenedor-skills{
+    .contenedor-skill{
         padding: 50px 20px;
     }
     #proyectos {
@@ -639,12 +654,115 @@ footer a{
 
 #servicios .fila .servicio h4,
 #servicios .fila .servicio p {
-    color: #000; /* Cambiado a negro (#000) */
+    color: #e0e0e0; 
+    margin-left: 2px;
 }
 
 #sobremi .sobremi h2,
 #sobremi .sobremi h3,
 #sobremi .sobremi p,
 #sobremi .sobremi a {
-    color: #000; /* Cambiado a negro (#000) */
+    color: #c4c2c2; /* Cambiado a negro (#000) */
+}
+
+
+.contenedor-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    position: relative;
+    background-color: #111111;
+}
+
+.titulo-habilidades{
+    position: absolute;
+    top: 70px;
+    left: 45%;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #d5d5d6;
+    text-decoration: underline;
+    text-decoration-color: #68a7ff;
+    text-decoration-thickness: 5px;
+}
+
+.container-skillss{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:40px;
+}
+
+.container-skillss .progress{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border-radius: 50%;
+    background: #444 linear-gradient(to right, transparent
+    50%, var(--clr) 0); ;
+
+}
+
+.container-skillss .progress h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7em;
+    z-index: 1;
+    font-weight: 600;
+
+}
+
+.container-skillss .progress h3 span{
+    font-size: 0.65em;
+    font-weight: 600;
+}
+
+
+.container-skillss .progress h4{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    font-weight: 600;
+    color: var(--clr);
+    text-transform: uppercase;
+}
+
+.container-skillss .progress::before{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.container-skillss .progress::after{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #222;
+}
+
+.container-skillss .progress::before{
+    background: var(--clr);
+transform: rotate(calc(((var(--i) - 15) * 0.01turn)));
+
+}
+
+
+.container-skillss .progress.less::before{
+    background: #444;
+    transform: rotate(calc(((var(--i) - 40)* 0.01turn)));
+
+
 }
